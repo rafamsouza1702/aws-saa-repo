@@ -7,3 +7,4 @@
   git commit -m "First git commit" -m "Description about what was done"
   git config --global user.email "rafamsouza@gmail.com"
   git push
+  git push origin main
