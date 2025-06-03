@@ -1,3 +1,3 @@
 # AWS Solutions Architect Associate
 
-Some description here.
+Some description here!
