@@ -12,3 +12,39 @@
   git remote add origin git@github.com:rafamsouza1702/demo-repo.git
   git remote -v
   git status
+  git checkout -b feature-readme-instructions	Create and switch to branch
+git branch	List local branches available
+git checkout master	Switch to master branch
+git checkout feature-readme-instructions	Switch to feature branch
+git status	Show changes in working directory
+git add README.md	Stage README.md for commit
+git commit -m "updated readme"	Commit with a message
+git diff feature-readme-instructions	Compare branch with current state
+git push	Push changes to remote
+git push --set-upstream origin feature-readme-instructions	Set upstream and push branch
+git remote set-url origin https://github.com/rafamsouza1702/demo-repo.git	Change remote URL to HTTPS
+git pull origin master	Pull latest master changes
+git branch -d feature-readme-instructions	Delete local feature branch
+git checkout -b quick	Create and switch to quick
+git branch -d quick	Delete local quick branch
+git checkout quick-test	Switch to quick-test branch
+git checkout -b quick-test	Create and switch to quick-test
+git add index.html	Stage index.html for commit
+git commit	Commit staged changes interactively
+git commit -m "adding index file on the demo-repo"	Commit index file changes
+git push --set-upstream origin master	Set upstream and push master
+git commit -am "added world"	Stage and commit all changes
+git commit -am "Added there"	Stage and commit changes
+git diff	Show file differences
+git diff master	Compare current branch to master
+git merge master	Merge master into current branch
+git commit -am "updated with master"	Commit after merging changes
+git reset	Unstage staged changes
+git reset HEAD~1	Undo last commit (keep files)
+git log	View commit history
+git add README.md	Stage README.md (repeated entry)
+git commit -m "added step"	Commit with step message
+git commit -m "commit commit"	Commit with custom message
+git push --set-upstream origin quick-test	Set upstream and push quick-test
+git branch -d quick-test	Delete local quick-test branch
+git pull origin master	Pull latest master (repeated)
